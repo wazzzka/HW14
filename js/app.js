@@ -18,6 +18,11 @@ function createSum() {
     };
 }
 
+/*
+let totalAmount = 0;
+const createSum = num => totalAmount += num;
+*/
+
 const sum = createSum();
 
 console.log(sum(3)); // 3
